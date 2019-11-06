@@ -1,0 +1,2 @@
+scannerda paketi cagirmak icin command+shif+O as orhan
+yazdigin seyleri nota cevirmek icin highlight them ve command + / 
