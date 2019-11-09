@@ -5,7 +5,7 @@ public class F_Replace_ReplaceAll_ {
 	public static void main(String[] args) {
 		
 
-//****  // .replace()
+//****  // .replace() only accept int = numbers
 		// biseyi/karakteri or kelime digerine degistirir
 		//This method returns a new string resulting from replacing all 
 		//occurrences of oldChar in this string with newChar.
@@ -65,9 +65,13 @@ public class F_Replace_ReplaceAll_ {
 		
 //**   
 		String mix="3213Hello 89 World354545 *&***^&*^&*";
+		
 		System.out.println(mix.replaceAll("[0-9]", ""));
+		
 		 System.out.println(mix.replaceAll("[a-z]", ""));
+		 
 		  System.out.println(mix.replaceAll("[a-z A-Z]", ""));
+		  
 		   System.out.println(mix.replaceAll("[^A-Za-z0-9]", ""));		
 		
 //**		
@@ -91,7 +95,9 @@ public class F_Replace_ReplaceAll_ {
 		//Hi45How4565645
 				
 		
-		System.out.println(str4.replaceAll ("\\w",""));	// *%$%^  //	bu da sadece chracterleri verir.
+		System.out.println(str4.replaceAll ("\\w",""));	
+		
+// *%$%^  //	bu da sadece chracterleri verir.
 				
 		
 //****	 "[^a,e,i,o,u]","") will print only vowels

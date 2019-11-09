@@ -5,8 +5,10 @@ public class A_Switch_Case {
 	
 	public static void main(String[]args) {
 		
-		/*
+		/* checks only equality
+		 *  or , and ve esitdegildir seyleriyle kullanamazsin
 		 * limitiation
+		 * strign manupilusyon ile lower upper yaparsin sannerla aldigini
 		 * works with only only only byte, short, char, int, string // you can not use double, boolean, long vs
 		 * no relational and logical operators kullnaamazsin
 		 * dublicate cases are nto allowed

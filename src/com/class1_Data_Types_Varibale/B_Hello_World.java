@@ -1,4 +1,9 @@
-package com.class1_Data_Types_Varibale; // single line comment icin  // yaziyorsun
+package com.class1_Data_Types_Varibale;
+
+
+// single line comment icin  // yaziyorsun
+					
+
 					/*multiple line comments
 					 * dasdad
 					 * dada
@@ -13,7 +18,9 @@ public class B_Hello_World {
 		System.out.println("heeeyyyt!!") ;
 		System.out.println("hellllloooo") ;
 		System.out.println("heydoo") ;
+		
 		// herseyi iki {}icine yaziyoruz yoksa calismaz
+		
 		} // close the door
 	
 	}
