@@ -138,7 +138,7 @@ public class Fisrt_10 {
 				        	
 //////////////////////////////////////////////////	
 			
-		
+// 8 // write a program to print first 10 numbers of Fibonacci series
 		
 		
 		
