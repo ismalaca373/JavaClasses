@@ -8,6 +8,7 @@ public class Computer {  // silme // bu Computer_object classla baglantili silme
 	
 	
 	
+	
 	void play() {
 		
 		System.out.println(brand+" play a music");

@@ -14,7 +14,7 @@ public class Recap {
 		Computer comp = new Computer(); // Computer classa gidip ordaki methodlari cagirabiliriz.
 		
 		comp.brand = "Lenova";
-		comp.play();
+		comp.play(); // burda Computer classina gidip play methodunu cagiriyor
 
 	}
 

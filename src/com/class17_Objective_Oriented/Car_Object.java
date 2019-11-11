@@ -4,17 +4,20 @@ public class Car_Object {
 
 	public static void main(String[] args) {
 		
-// bu class car classla beraber calisiyor ona gore 
+// bu class car classla beraber calisiyor silme degistirme
 		
-//	classname variable = Classname();
+		
+		
+//	classname variablename = Classname();
 			
 	
-//	String a = new String(); // create an object in the memory we start building an object
+//	class / name = new class(); // create an object in the memory we start building an object
 	
-	Car car1 = new Car(); // adagida objecti tanimliyoruz
+	Car    car1 =   new Car(); // asagida objecti tanimliyoruz
 	
-	// bunlar car in ozellikleri
-	car1.make ="Tesla"; // car1. deyince class in icindeki String make, model,color cikar	
+	// asagidakiler car in attributes/features
+	
+	car1.make ="Tesla"; // car1. deyince class in icindeki String make, model,color methodlari cikiyor bakarsan
 	car1.color = "beyaz";
 	car1.year = 2020;
 	
@@ -23,18 +26,19 @@ public class Car_Object {
 			
 	
 System.out.println("****************");	
-	// bunlar actions
 	
+	// asagidakiler behaviors
+
 	car1.start(); // obur dosyada ne yazarsak burda cikar System.out.println("car can start");
 	car1.drive();
 	
-	System.out.println("****************");		
+///////////////////////////////////////////////		
 	
 	Car car2 = new Car();
 	
 	car2.make = "Honda";
 	car2.year = 2020;
-	car2.color = "Black";	
+	car2.color = "Black";
 	
 	System.out.println("****************");	
 	
@@ -44,10 +48,15 @@ System.out.println("****************");
 	
 ////////////////////////////////////////
 	
+	// hocanin ornegi
+	
 	//to create an object syntax is
-			//ClassName variable=new ClassName();
-			//Scanner scan=new Scanner(System.in);
-			//String str=new String();
+	
+		//ClassName variable=new ClassName();
+		//Scanner scan=new Scanner(System.in);
+		//String str=new String();
+	
+	
 //			Car car1=new Car();
 //			car1.make="Tesla";
 //			car1.model="S3";

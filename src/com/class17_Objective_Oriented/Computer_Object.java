@@ -5,8 +5,6 @@ public class Computer_Object {
 	// bu Computer classla baglantili silme
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		
 		Computer comp1 = new Computer();
 		
@@ -16,6 +14,9 @@ public class Computer_Object {
 		comp1.color = "white";
 		
 		comp1.compute();
+		
+		
+		////////////////////
 		
 		Computer comp2 = new Computer();
 		

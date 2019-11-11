@@ -1,6 +1,6 @@
 package com.class17_Objective_Oriented;
 
-public class Phone { // adini degistirme
+public class Phone { // adini degistirme 
 
 	
 		String brand, model,color;  
@@ -8,9 +8,7 @@ public class Phone { // adini degistirme
 		int year,screen,pixel;
 		
 		
-		
-		
-		void playGames() {// method header
+		void playGames() {
 			//method body
 			System.out.println("I can play on my "+brand);
 		}
@@ -22,7 +20,6 @@ public class Phone { // adini degistirme
 		void map() {
 			System.out.println("I can use the map on "+brand);
 		}
-		
 		
 		
 	public static void main(String[] args) {
@@ -37,9 +34,10 @@ public class Phone { // adini degistirme
 		
 		ph.pixel = 2600;
 		
-		System.out.println("I have a "+ ph.brand+ " model is "
-							+ ph.model+ " and "+" ph.screen is "+ph.screen+ " has " +ph.pixel +" pixel");
-		
+		System.out.println("I have a "+ph.brand+ " model is "
+							+ph.model+ " and "+" ph.screen is "
+							+ph.screen+ " has "
+							+ph.pixel +" pixel");
 		
 		
 		System.out.println("******************");
@@ -49,11 +47,6 @@ public class Phone { // adini degistirme
 		ph.map();
 		ph.calender();
 			
-	String a = " ahmet ";
-	
-	 a.trim();
-	 
-	 System.out.println(a);
 		
 			
 		}
