@@ -3,16 +3,11 @@ package com.class19_Return;
 public class AllMethods {
 	
 	// create methods to return value of sum
-			//sub
-			//sum
-			//mult
-			//div
-			//largest
-			//odd or even
+			//sub //sum //mult //div //largest //odd or even
 	
 ////////////////////////////////////////////
 	
-// method to retun number is even or odd
+// method to return number is even or odd
 
 	boolean evenOdd (int number) {
 
@@ -128,7 +123,7 @@ public class AllMethods {
 		AllMethods obj = new AllMethods();
 		
 		
-		boolean odd = obj.evenOdd(300);
+		boolean odd = obj.evenOdd(300); // burda boolen odd = ob.... diyebilrisin return dedik
 		
 		System.out.println("is number odd? " + odd);
 		

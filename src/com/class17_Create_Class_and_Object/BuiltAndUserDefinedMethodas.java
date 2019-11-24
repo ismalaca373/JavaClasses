@@ -25,7 +25,8 @@ public class BuiltAndUserDefinedMethodas {
 		}
 	// main method un disinda kaldigi icin calisir
 	
-	void myMethod() {   
-		System.out.println("This is user defined method that I created");
+		void myMethod() {   
+		
+			System.out.println("This is user defined method that I created");
 }
 }
