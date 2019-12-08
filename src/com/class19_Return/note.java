@@ -1,6 +1,8 @@
 package com.class19_Return;
 
 public class note {
+	
+// 			iki sekli var.
 
 //			1. Method without return any value Uses void keyword
 //				Void keyword allows to create methods which do not return a value.
@@ -13,6 +15,8 @@ public class note {
 //				● You can't declare more than one return statement in one method.
 //				● The data type of the returned value must match the type of the method's
 //					declared return value.
+	
+	// method : extra
 //				● You can call the method with its name only.
 //				● The method must have the body.
 //				● The method can accept the n number of parameters.
@@ -29,15 +33,15 @@ public class note {
 		
 		note obj1 = new note();
 		
-		int large = obj1.findLargest(20, 40);
+		int large = obj1.findLargest(20, 40); 
 		
-		System.out.println("largest number is " + large);
+		System.out.println("Largest number is " + large);
 
 	}
 	
-//////////////////
+////////////////// main method disinda
 	
-	int findLargest(int num1, int num2) {  // void iken retun kullnamiyoruz bundan dolayi voidi int yap bastaki
+	int findLargest(int num1, int num2) {  // ya void ya return bundan dolayi voidi int yap bastaki
 		
 		int largest;
 		

@@ -1,6 +1,6 @@
 package com.class19_Return;
 
-public class Method_With_Return_Value {
+public class Method_With_Return_Value {  // AllMethods la calisiyor
 
 	public static void main(String[] args) {
 		
@@ -22,11 +22,19 @@ public class Method_With_Return_Value {
 		
 		char ch = str.charAt(4);
 		
-		System.out.println(ch); // o = orhan
+		System.out.println(ch); 
+		
+		
 
 		//////////////////////////////
+		
+		
+		
+		
 	
 	// create an object of class of class where method is defined
+		
+		
 		
 		Method_With_Return_Value obj1 = new Method_With_Return_Value();
 		
@@ -53,7 +61,7 @@ public class Method_With_Return_Value {
 		
 		int c = num1+num2;
 			
-		return c;	//  curly braket icinde olmali
+		return c;	//  curly braket icinde olmali ve en son bu olmali
 	}
 	
 //////////////////////////

@@ -8,18 +8,18 @@ public class Access { // testle de baglantili
 	
 //	4 type
 	
-//	1.private most restrected baslayip asagiya dogru 
-//	2.default 
-//	3.protected
-//	4.public less one  bu asagidakileirn hepsinde gozukur
+//	1.private most restrected baslayip asagiya dogru. cogunlukla variablelarla. sadece ayni classta. ayni classtan public method ulasirsa baska yerlerden methodun sayesinde private variablelara da ulasabilirsin.
+//	2.default sadece pakettekiler ulasabilir. 
+//	3.protected sadece package  ve sublasslar. 
+//	4.public less one  bu asagidakileirn hepsinde gozukur. methodlar cogunlukla public olur. yani yukardakileri ayni classta bir method icine koyarsan method kullanarak hepsine ulasabilirsin.
 	
-// bunlari variable, methods, constructor, ve classlarda kullanabiliyorsun
+//	bunlari variable, methods, constructor, ve classlarda kullanabiliyorsun
 	
-//	SYNTAX for variables : access modifier(optinal), static(optinal),  dataType, variablename
+//	SYNTAX for variables : access modifier(optinal), static(optional),  dataType, variablename
 	
-// SYNTAX for methods : access modifier(optinal), static(optinal), returntype, methodname
+//  SYNTAX for methods : access modifier(optinal), static(optinal), returntype, methodname
 	
-// 	optinallari yazmassan compiler bisey demez
+// 	optionallari yazmassan compiler bisey demez
 	
 	
 	public static String language = "Java";
@@ -36,20 +36,16 @@ public class Access { // testle de baglantili
 	}
 	
 
-	static void hello2() {  // default 
+	static void hello2() {  // default ayni paket ve sub classlarda ulasabilrisin
 		
 		System.out.println("hello2");
 	}
 
-	private static void hello3() { // buna sende ulasamaybilirsin
+	private static void hello3() { // 
 		
 		System.out.println("hello3");
 	}
 	
-
-
-	
-//
 /////////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 // accsess methodlari  dosyalarin ulasilabilir olmasi ya da olamamasi
@@ -67,9 +63,9 @@ public class Access { // testle de baglantili
 
 		   //everywhere
 //public : can be seen and accessed from everywhere
-			 //classin icnde sadece public ve default kullanirsin
+			 //class icin sadece public ve default kullanirsin
 		     // baska bir classdan/paketten object create etmek sitersen import etmen lazim. scanner gibi
-	 
+	 		// methodlarida genelde public olur.
 		
 //			public void addd1() { // bun ornekler oylseine yazildi calsimiyor 
 				
@@ -79,13 +75,13 @@ public class Access { // testle de baglantili
  //          void add2(int num1, num2) {
 		
            
-           //package
-// protected: can be seen/accessed within package
+           //package 
+// protected: can be seen/accessed within packageans subclass
 	
 //			protected int add3() {
 		
 
-			// class
+			// in class
 // private: can be seen/accessed only with in this class
 			// sen bile privetin icinde goremezsin hocanin orneginde var.
 			

@@ -1,16 +1,30 @@
 package com.class_mustafa;
 
+import java.util.Scanner;
+
 public class Exe_46 {
 
-	public static void main(String[] args) {
+		int t = 20;
 		
- 
-		String str_Sample = "RockStar";
-		System.out.println("EndsWith character 'r': " + str_Sample.endsWith("r"));
-
-		
+		void run() {
 			
-			}
-	
-
+			System.out.println("dsadasd");
+			
 		}
+		
+		
+		}
+
+		class Main {
+			
+		public static void main(String args[]) {
+			
+			Exe_46 obj = new Exe_46();
+			
+		obj.run();
+		
+		
+		
+		}
+		}
+

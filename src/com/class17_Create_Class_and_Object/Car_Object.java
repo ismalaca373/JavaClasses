@@ -1,15 +1,8 @@
 package com.class17_Create_Class_and_Object;
 
-public class Car_Object {
+public class Car_Object { // bu class car classla beraber calisiyor silme degistirme
 
-	public static void main(String[] args) {
-		
-// bu class car classla beraber calisiyor silme degistirme
-		
-		
-		
-//	classname variablename = Classname();
-			
+	public static void main(String[] args) {		
 	
 //	class / name = new class(); // create an object in the memory we start building an object
 	

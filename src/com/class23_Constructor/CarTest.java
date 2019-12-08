@@ -1,13 +1,13 @@
 package com.class23_Constructor;
 
-public class CarTest {
+public class CarTest { // car la baglantili
 	
 
 	public static void main(String[] args) {
 		
-		Car.make = "Toyota"; // staticlari class adiyla cagiriyoru unutma
+		Car.make = "Toyota"; // staticlari class adiyla cagiriyoruz
 		
-		Car car1 = new Car(); // 
+		Car car1 = new Car(); 
 		
 		car1.model = "Camry";  // instance variablelar icin obj create etmen lazim.
 		

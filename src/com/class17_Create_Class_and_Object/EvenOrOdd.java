@@ -8,21 +8,24 @@ public class EvenOrOdd {
 		
 		if (number % 2 == 0) {
 		
-		System.out.println(number + " is even number");
+		System.out.println(number + " is even number.");
 		
 		}else {
 		
-		System.out.println(number + " is odd number");
+		System.out.println(number + " is odd number.");
 	}
 		
 	
 }
+////////////////////////////////////////////
+	
+	
 	
 	public static void main(String[]args) {
 	
 		EvenOrOdd result = new EvenOrOdd ();
 	
-		result.evenOdd(5);
+		result.evenOdd(6); 
 	
 		
 	}

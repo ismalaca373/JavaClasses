@@ -1,6 +1,6 @@
 package com.class17_Create_Class_and_Object;
 
-	public class Computer1 {
+	public class Computer1 { // bunun main methodu asagida
 		
 		//define features, attributes
 		
@@ -42,7 +42,8 @@ package com.class17_Create_Class_and_Object;
 
 		///////////////////
 		
-		System.out.println("---Creating 2 object of a computer type---");
+		System.out.println("---Creating 2nd object of a computer type---");
+		
 		Computer1 computer2=new Computer1();
 		computer2.brand="Dell";
 		computer2.name="420";

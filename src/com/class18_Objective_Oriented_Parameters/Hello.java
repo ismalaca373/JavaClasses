@@ -1,9 +1,9 @@
 package com.class18_Objective_Oriented_Parameters;
 
-public class Hello {
+public class Hello { // main asagida
 	
 	// method with parameters
-	// (String name) is parameter is value pass it ot the method.
+	// (String name) is parameter is value pass it to the method.
 
 
 ////////////////////////////////////////////	
@@ -13,7 +13,8 @@ public class Hello {
 // method 1	
 		Hello obj = new Hello();
 		
-		obj.sayHello("Asel");// ne hello obj ye yazilan herseyo yukardaki method icinde parametira koyuyor
+		obj.sayHello("Asel");//  syahello parantezi icine yazilan herseyi classs disindaki
+									// method icindeki parametira koyuyor
 		obj.sayHello("Fatih");
 		obj.sayHello("ali");
 		System.out.println();
@@ -22,7 +23,7 @@ public class Hello {
 		obj.sayHelloDifferentLanguage("USA"); // bunlarin methodu asagida
 		obj.sayHelloDifferentLanguage("Russia");
 		obj.sayHelloDifferentLanguage("Turkey");
-	//	obj.sayHelloDifferentLanguage(123); // error veris cunku asagidaki parameterda sadece string dedik
+	//	obj.sayHelloDifferentLanguage(123); // error verir cunku asagidaki parameterda sadece string dedik
 		System.out.println();
 		
 // method 3	
@@ -35,8 +36,7 @@ public class Hello {
 		obj.isSnowing(true);
 	}
 	
-////////////////////////////
-	
+//////////////////////////// burasi main method disi
 	// method 1		
 	
 		void sayHello(String name){
@@ -48,12 +48,12 @@ public class Hello {
 	
 // method 2	
 		
-		// create a method that will say hello in diffrend language
-		// that wil be passed when user calls a methid.
+		// create a method that will say hello in different language
+		// that will be passed when user calls a method.
 		
 	void sayHelloDifferentLanguage(String country) {
 		
-	//	String country = "USA"; // boyle yazabilirsin ya da yukarda vodi sayHell... icinde parameter olarak yazarsin
+	//	String country = "USA"; // boyle yazabilirsin ya da yukarda void sayHell... icinde parameter olarak yazarsin
 		
 		
 		switch (country.toLowerCase()) { // yazilan herseyi lower case ceviriyor
@@ -88,13 +88,13 @@ public class Hello {
 	
 	void sayNameAndAge(String name, int age) {
 		
-		System.out.println("My name is "+ name +" and I am"+ age+ "years old.");
+		System.out.println("My name is "+ name +" and I am "+ age+ " years old.");
 		
 	}
 
 ///////////////////////////////////////
 	
-	// create a method taht will check if it snowing
+	// create a method that will check if it snowing
 	// if snow --> stay at home, otherwise go for a walk
 	
 // method 4

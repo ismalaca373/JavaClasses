@@ -2,8 +2,8 @@ package com.class21_Variable_Cesitleri;
 
 public class Employee {
 	
-	// notlara bakmalisin bunlar icin 
-	//variable yada method. static olunca ayni sinfin icinde direct cagirirsin ayri sinftaysa objeyle cagirirsin. 
+	//notlara bakmalisin bunlar icin 
+	//variable yada method static olunca ayni sinfin icinde direct cagirirsin ayri sinftaysa CLASS la cagirirsin. 
 	
 	static String CEO;
 	
@@ -27,9 +27,10 @@ public class Employee {
 	
 	eleman1.salary =500;
 	
-	eleman1.CEO = "asd";
+	CEO = "asdddsad"; // ayni classta oldugunda direct cagirabilirsin.  eleman1.CEO da diyebilrsin calisir
 	
 	eleman1.dispayInfo();
+	
 	
 	Employee eleman2 = new Employee();
 	
@@ -37,8 +38,8 @@ public class Employee {
 	
 	eleman2.salary =300;
 	
-	eleman2.CEO = "abd"; // CEO is static yani ben bu ismi degistirirsem ama en sondakini burda 100 object olsa butun ceolar degisir 
-							// ama eleman1 inkinin degismesini istiyorsan  bu line asagisina koymalisin. islem yukardan asagiya gidiyorya
+	CEO = "abd"; // CEO is static yani ben bu ismi degistirirsem sonrakiler bundan sonra bunla ayni olur.
+							// ama eleman1 inkinin degismesini istiyorsan  bu line nin asagisina koymalisin. islem yukardan asagiya gidiyor
 	eleman2.dispayInfo(); 
 	
 //	eleman1.CEO = "Ibo"; // buraya yazman lazim bunu degismesi icin

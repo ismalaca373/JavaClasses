@@ -103,3 +103,77 @@ public  String [] arrayOfWords(String sentence) {
 
 
 }
+
+// bunlarda aynisi ama eklnemis gibi
+
+//public class Task1 {
+//	public static void main(String[] args) {
+//		
+//		//I just added this line for fun.
+//		Task1 task = new Task1();
+//
+//		String str = "Anna";
+//
+//		boolean result2 = task.isPalindrome(str);
+//		System.out.println("Is \"" + str + "\" Palindrome? " + result2);
+//		
+//		
+//		
+//		String result = task.reverseString("Syntax"); // bur da return oluyor
+//		System.out.println(result);
+//	// or
+//		System.out.println(task.reverseString("Aliasdnnda"));
+//		
+//		
+//		
+//		String[] strArray = task.arrayOfWords("What a beautiful day is today!");
+//		System.out.println("The length of the array is: " + strArray.length);
+//		
+//		
+//		for (String word : strArray) {
+//			System.out.println(word);
+//		}
+//	}
+//
+///////////////////////////////////////////////	
+//	
+//	public boolean isPalindrome(String parameter) {
+//		
+//		boolean result = false;
+//
+//		String reverse = reverseString(parameter);
+//
+//		if (parameter.equalsIgnoreCase(reverse)) {
+//			result = true;
+//		} else {
+//			result = false;
+//		}
+//
+//		return result;
+//	}
+//
+//	String reverseString(String param) {
+//		
+//		String result = "";
+//
+//		char[] charArray = param.toCharArray();
+//
+//		for (int i = charArray.length - 1; i >= 0; i--) {
+//			result += charArray[i];
+//		}
+//
+//		return result;
+//	}
+//
+//	
+//	
+//	String[] arrayOfWords(String sentence) {
+////		String[] stringArray;
+////		stringArray = sentence.split(" ");
+////		return stringArray;
+//
+//		return sentence.split(" ");
+//	}
+//
+//}
+

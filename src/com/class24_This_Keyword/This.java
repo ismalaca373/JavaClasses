@@ -2,9 +2,9 @@ package com.class24_This_Keyword;
 
 public class This {
 	
-	
+	// current class ta kullanilir.
 	// 1. this.variableName instance variabli isaret editor. bu diyor isntance variable. 
-	// 2. this. method icin cagirabiliyorsun
+	// 2. this.method icin cagirabiliyorsun
 	// 3. this() constructor cagirir. bir tane sadece
 	//	3.1 ilk once bu yazilmali code icine sonra syso
 	//	3.2 can not call more then one constructor
@@ -17,12 +17,13 @@ public class This {
 	// 
 	
 	
-	String name;
-	String capital;
+	String name, capital;
 	
 	int a, b ;
 	
+	///////////////////////////
 	
+	// 1.constractor 
 	public This (String name, String capital) {
 		
 		this.name = name;   // ayni isim yazar ve this demezsen local variable olur ikiside 
@@ -32,12 +33,12 @@ public class This {
 		this.capital = capital;
 		
 		System.out.println("Hellllooo");
-		
-///////////////////////		
-		
-		
-	}
+	}	
 	
+///////////////////////		
+	
+	
+	// 2.constractor 
 	public This(int a, int b) {
 		
 		this.a = a;
@@ -51,6 +52,9 @@ public class This {
 		
 	}
 	
+	/////////////////////////
+	
+	
 	public void sayA() {
 		
 		System.out.println(a);
@@ -60,8 +64,10 @@ public class This {
 		
 		System.out.println(b);
 	}
+	
+	// method icinde method  kullanma
 	  
-public void sayAandB() {   // method icinde method kullanabilirsin  // static diyemezsin. static icnde static cagirabilirsin
+	public void sayAandB() {   // method icinde method kullanabilirsin  // static diyemezsin. static icnde static cagirabilirsin
 	
 	this.sayA(); // burda da methodu belirledi. we can call, we cannot create a method insed method.
 	
@@ -73,11 +79,11 @@ public void sayAandB() {   // method icinde method kullanabilirsin  // static di
 	
 	public static void main(String[] args) {
 		
-		This ornek = new This ("ali", "ankara"); 
+		This ornek = new This ("ali", "ankara");  // 1.ci constractor
 		
 		
 		
-		This obj = new This (10,10); // 
+		This obj = new This (10,10); // 2,ci constractor
 		
 		obj.sum(5, 10);
 		

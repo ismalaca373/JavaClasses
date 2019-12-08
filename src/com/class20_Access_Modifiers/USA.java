@@ -9,6 +9,10 @@ class USA {  // canada ile baglantili
 	
 	protected String school = "Syntax Technologies";
 	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		
 		USA us = new USA();

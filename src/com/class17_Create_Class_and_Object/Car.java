@@ -32,7 +32,7 @@ public class Car { // silme ve degistirme baska classla baglantili
 
 // 		variable and methods defined in the class.
 	
-// 1.	//define arrtibutes/features // burda variables kullaniyoruz
+// 1.	//define attributes/features // burda variables kullaniyoruz
 		
 	
 		String make, model,color;  // car class i define attik

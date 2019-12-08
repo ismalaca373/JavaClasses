@@ -26,6 +26,8 @@ public class Test {
 		sm.work();
 		sm.artifacts = "Product backlog, BurnDown";
 		
+		///////////////////
+		
 		Developer dev = new Developer();
 		
 		dev.salary = 130000;

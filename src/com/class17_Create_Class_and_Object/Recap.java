@@ -8,7 +8,7 @@ public class Recap {
 		String str = "Hello";
 		int num = str.length();
 		
-//		String str = new String("Hellp");
+//		String str = new String("Hello");
 		
 		
 		Computer comp = new Computer(); // Computer classa gidip ordaki methodlari cagirabiliriz.

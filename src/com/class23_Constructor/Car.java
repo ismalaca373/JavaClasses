@@ -1,6 +1,7 @@
 package com.class23_Constructor;
 
-public class Car {
+public class Car { //cartestle baglantili
+	
 	// we want to build make as Toyota cars
 	// that will have differetn models and color
 	

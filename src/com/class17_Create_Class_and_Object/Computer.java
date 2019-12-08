@@ -6,17 +6,14 @@ public class Computer {  // silme // bu Computer_object classla baglantili silme
 	
 	int screen,memory;
 	
-	
-	
-	
 	void play() {
 		
-		System.out.println(brand+" play a music");
+		System.out.println(brand+" can play a music");
 	}
 	
 	void compute() {
 		
-		System.out.println(brand +" compute the numbers");
+		System.out.println(brand +" computes the numbers");
 	}
 	
 }

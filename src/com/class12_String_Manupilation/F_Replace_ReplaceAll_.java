@@ -34,11 +34,11 @@ public class F_Replace_ReplaceAll_ {
 		
 		System.out.println (str.replaceFirst("H", "ZZ")); // ilk H i ZZ yapar sadece
 		
-		String str = "Java says hello world. Java String tutorial";
+		String str6 = "Java says hello world. Java String tutorial";
 		//Replace first occurrence of substring "Java" with "JAVA"
-		String newStr = str.replaceFirst("Java", "JAVA");
+		String newStr = str6.replaceFirst("Java", "JAVA");
 		//Replace first occurrence of substring "a" with "A"
-		String regexResult = str.replaceFirst("[a]", "A");
+		String regexResult = str6.replaceFirst("[a]", "A");
 		System.out.println(newStr);
 		System.out.println(regexResult);}
 		
@@ -72,7 +72,7 @@ public class F_Replace_ReplaceAll_ {
 		 
 		  System.out.println(mix.replaceAll("[a-z A-Z]", ""));
 		  
-		   System.out.println(mix.replaceAll("[^A-Za-z0-9]", ""));		
+		   System.out.println(mix.replaceAll("[^A-Za-z0-9]", ""))	;	
 		
 //**		
 		String str3 = "12334Hel23454lo76432";
@@ -97,16 +97,13 @@ public class F_Replace_ReplaceAll_ {
 		
 		System.out.println(str4.replaceAll ("\\w",""));	
 		
-// *%$%^  //	bu da sadece chracterleri verir.
-				
+ // *%$%^  //	bu da sadece chracterleri verir.
 		
 //****	 "[^a,e,i,o,u]","") will print only vowels
-		
 /////////////////////////////////////////
-		
 //		package com.class13;
-		​
-				String str5="Today is our java class";
+
+		String str5="Today is our java class";
 				
 				System.out.println(str5.replace(" ", ""));
 				System.out.println("***************");
@@ -121,7 +118,7 @@ public class F_Replace_ReplaceAll_ {
 				System.out.println(doc.toLowerCase().replace("video", "Audio"));
 				System.out.println(doc.replaceAll("powerful(.*)", ""));
 				
-	}
-		​
+	
+		​}
 		}
 

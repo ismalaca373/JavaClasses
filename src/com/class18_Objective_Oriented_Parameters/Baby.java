@@ -19,38 +19,42 @@ public class Baby {
 		System.out.println(baby1.gender);
 		
 		//////////////////////
+		
+		System.out.println(" ");
 
 		baby1.walk(3);
+		baby1.cry();
+		baby1.talk();
 
 		System.out.println("Done with baby one");
+		
 
 ///////////////////////////////////////////////
-		
+		System.out.println(" ");
 		
 		Baby baby2 = new Baby();
-		baby2.cry();
 
 		baby2.firstName = "Ann";
 		baby2.lastName = "Smith";
-		baby2.hairColor = "Black";
+		baby2.hairColor = "Blue";
 		baby2.gender = 'F';
 		baby2.weight = 6;
-		
-		///////////////////
 
 		baby2.cry();
 
 		baby2.talk();
 		
-		System.out.println("Full name of baby 2 " + baby2.firstName + " " + baby2.lastName);
 		baby2.walk(2);
+		
+		System.out.println("Full name of baby 2 " + baby2.firstName + " " + baby2.lastName);
+		
 
 		System.out.println("-----------------");
 		baby1.displayBabyInfo();
 		baby2.displayBabyInfo();
 	}
 	
-////////////////////////////// burdan asagisi main disinda
+////////////////////////////// burdan asagisi main disinda classin icinde
 
 	String firstName;
 	String lastName;
@@ -79,6 +83,8 @@ public class Baby {
 
 		System.out.print("Gender is: ");
 		
+		System.out.println("Hair color is: " + hairColor);
+		
 		if (gender == 'M') {
 			System.out.println("Boy");
 		} else if (gender == 'F') {
@@ -87,7 +93,7 @@ public class Baby {
 			System.out.println("Unknown");
 		}
 
-		System.out.println("Hair color is: " + hairColor);
+		
 	
 	}
 	

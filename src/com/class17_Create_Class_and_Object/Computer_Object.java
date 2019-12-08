@@ -15,6 +15,7 @@ public class Computer_Object {
 		
 		comp1.compute();
 		
+		System.out.println("I have a "+comp1.color+" "+ comp1.brand+" "+ comp1.screen);
 		
 		////////////////////
 		
@@ -26,7 +27,7 @@ public class Computer_Object {
 		
 		comp2.play();
 		
-		System.out.println("I have a "+comp1.color+" "+ comp1.brand+" "+ comp1.screen);
+	
 		
 		
 		

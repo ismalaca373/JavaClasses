@@ -7,20 +7,22 @@ public class Myself { // mysonmath ile baglantili
 		MySonMath son1 = new MySonMath();
 		son1.name = "Ensar";
 		son1.phone = "123-456-7890";
-//		son1.SSN = "";
+//		son1.SSN = ""; // ulasamazsin private cunku
 		son1.birthday = "01/01/2010";
 		
-		son1.add1();
+		son1.add1(); // 3
 
-		son1.add2(2, 3);
+		son1.add2(2, 3); 
 
 		int result = son1.add3();
-//		System.out.println(result);
+		System.out.println(result);
 
 		int result4 = son1.add4(5, 7);
 		
-//		son1.add5(); //This method is not visible
+//		son1.add5(); //This method is not visible it is private
 
+		
+		
 		Myself mySelf = new Myself();
 		
 		boolean good = mySelf.checkResult(12, result4);

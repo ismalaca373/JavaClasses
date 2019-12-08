@@ -61,9 +61,9 @@ public class B_Boolean_String_Manipulations {
 //				represents the same sequence of characters as this object.
 
 //**	
-				String str2="HElLo WoRld";
+				String str22="HElLo WoRld";
 				
-				boolean isEqual=str1.equals(str2);
+				boolean isEqual=str22.equals(str22);
 				
 				System.out.println(isEqual);
 
@@ -100,9 +100,9 @@ public class B_Boolean_String_Manipulations {
 				System.out.println("Is this string empty= "+str.isEmpty());
 				
 //**
-				String str2="Hello"; 
+				String str33="Hello"; 
 				
-				System.err.println("Is this string empty= "+str2.isEmpty()); // false
+				System.err.println("Is this string empty= "+str33.isEmpty()); // false
 				
 				System.out.println("****************");
 

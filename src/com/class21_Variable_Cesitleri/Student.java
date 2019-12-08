@@ -1,16 +1,19 @@
 package com.class21_Variable_Cesitleri;
 
-public class Student{
-	
-	// local variabllar bulunduklari block of code icinde gorulebilinirler sadece
-	
-	// asagidakilerin ve schooldaki object ve variabllarin hepsi instance variable
-	//methodun icindeki variabl ise locak baska yerde gorup degistiremezsin
+public class Student{ // schoolla baglantili
 	
 	
-	public String studentName; // bunlar glabol variabla also
-							// 
+	// local variables are declared inside methods,
+	// local variablar bulunduklari block of code icinde gorulebilinirler sadece
+	// methodun icindeki variabl ise local baska yerde gorup degistiremezsin
 	
+	// instance variables are declared inside a class but outside methods
+	// asagidaki  variabllarin hepsi instance variable
+	
+	
+	
+	public String studentName; // bunlar glabol variable also
+							
 	public double GPA;
 	
 	public static String school; 
@@ -18,12 +21,11 @@ public class Student{
 	// static yaparsan obur tarata iki object olustursan ve 
 	// colori print etmek istesen en son hangi objenin colorini yaz dediysen
 	// hepsini o colorda print eder.
-	// once en osn obj ve color dan yazdirmaya baslamalisin. 
+	// once en son obj ve color dan yazdirmaya baslamalisin. 
 	// islem yukardan asagiya cunku
 	
 	//yukardakileri printin icinde de kullanabilirsin
-	// local variables are declared inside methods,
-	//instance variables are declared inside a class but outside methods
+	
 	
 	public void displaInfo() {
 		
@@ -31,7 +33,7 @@ public class Student{
 
 	}
 	
-	public void study(int hours) { //parameterslar also local variable
+	public void study(int hours) { //parameterlar also local variable
 		
 		int localVariable= 4; // sadece burda ulasilabilir method icinde oldugundan
 		
@@ -43,4 +45,3 @@ public class Student{
 	
 	
 	
-}

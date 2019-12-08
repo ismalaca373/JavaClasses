@@ -10,7 +10,7 @@ public class Mexico {
 	
 	public static void main(String[] args) {
 		
-//	When USA public yukardan cagirabilirsin
+//	 whne USA is ublic (class 20_Access..) cagirabilirsin 
 		
 //		USA us2 = new USA();
 //		
@@ -32,7 +32,6 @@ public class Mexico {
 //		USA us3 = new USA();
 //		
 //		System.out.println(us3.mainState);
-//		
 //		
 //		MySonMath son = new MySonMath();
 //		

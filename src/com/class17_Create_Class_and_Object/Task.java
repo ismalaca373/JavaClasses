@@ -7,7 +7,7 @@ public class Task {
 	public static void main(String[] args) {
 		
 		
-		Task a = new Task();
+		Task a = new Task(); //bir defa object create etsen yeterli. 
 		
 //task 1		
 		
@@ -79,7 +79,7 @@ public class Task {
 		
 		 void palindrome(String original) { // polindromda iki wordu karsilastiriyorsun yasdirip ayni mi diye bakiyorsu
 			 
-		//	 first revers the array then karsilastir
+		//	 first revers then array then karsilastir
 			 
 		    String reversed="";
 		        

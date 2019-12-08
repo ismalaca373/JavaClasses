@@ -1,9 +1,8 @@
 package com.class19_Return;
 
-public class AllMethods {
+public class AllMethods { //  Method_With_Return_Value baglantili
 	
-	// create methods to return value of sum
-			//sub //sum //mult //div //largest //odd or even
+	// create methods to return value of sum //sub //sum //mult //div //largest //odd or even
 	
 ////////////////////////////////////////////
 	
@@ -43,6 +42,7 @@ public class AllMethods {
 	}
 
 //////////////////////////////
+
 
 	int sum(int num1,int num2) {
 

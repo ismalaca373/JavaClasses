@@ -1,6 +1,6 @@
 package com.class17_Create_Class_and_Object;
 
-public class Dog {  // adini degistirme
+public class Dog {  // adini degistirme main asagida
 
 	String name, breed, size, color;
 	
@@ -10,15 +10,17 @@ public class Dog {  // adini degistirme
 	
 	void barks() {
 		
-		System.out.println("When " + name+  " see the bad men " + name + " barks when he is trained? \n" +trained);
+		System.out.println("When " + name+  " see the bad men, " + name + " barks if he is trained? \nIs he trained? " +trained);
 		
 	}
 	
 	void run () {
 		
-		System.out.println("When I call " + breed + " "+name+ " run around ");
+		System.out.println("When I call " + breed + " "+name+ " runs around ");
 		
 	}
+	
+////////////////////////////////////////////////
 	
 	
 	public static void main(String[] args) {
@@ -33,7 +35,6 @@ public class Dog {  // adini degistirme
 		System.out.println("I have "+Lessi.name+" is a "+Lessi.breed +" "+ Lessi.size);
 		
 		System.out.println();
-		
 		
 	
 		Lessi.run();

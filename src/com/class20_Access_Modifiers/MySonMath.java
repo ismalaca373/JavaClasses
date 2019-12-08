@@ -7,12 +7,15 @@ public class MySonMath { // myself ile baglantili
 	private String SSN;
 	protected String birthday;
 
-	//public can be seen/accessed
+	//public can be seen/accessed from
 	//from everywhere
 	public void add1() {
 		int num1 = 2;
 		int num2 = 1;
 		int result = num1 + num2;
+		
+		System.out.println(result);
+		
 	}
 
 	//default can be seen/accessed
@@ -39,6 +42,7 @@ public class MySonMath { // myself ile baglantili
 	
 	//private can be seen/accessed
 	//only within this class
+	
 	private void add5() {
 		int result = 6;
 	}

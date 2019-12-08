@@ -22,6 +22,8 @@ public class Phone { // adini degistirme
 		}
 		
 		
+////////////////////////////////////////////////		
+		
 	public static void main(String[] args) {
 			
 		Phone ph = new Phone();
@@ -40,7 +42,7 @@ public class Phone { // adini degistirme
 							+ph.pixel +" pixel");
 		
 		
-		System.out.println("******************");
+		System.out.println(" ");
 		
 		
 		ph.playGames();

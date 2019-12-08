@@ -1,15 +1,15 @@
-package com.class21_Variable_Cesitleri;
+package com.class21_Variable_Cesitleri; // class21 deki studentla baglantili
 
 // command shif o basarsan ototmatik import eder
 
 
 import com.class20_Access_Modifiers.*; // * clasin icindeki her methodu kullanima acar
 
-public class School {
+public class School { // studentla baglantili
 
 	public static void main(String[] args) {
 		
-		Student.school = "Morning School";
+		Student.school = "Good Morning School"; // static 
 
 		Student student1 = new Student();
 		
@@ -17,11 +17,11 @@ public class School {
 		
 		student1.GPA = 3.95;
 		
-		Student.school = "Syntax"; // when yu change hepsi degisir
+		Student.school = "Syntax"; // when you change bundan sonra hepsi degisir
 		
 		int hours =7;
 		
-		student1.displaInfo();
+		student1.displaInfo(); 
 		
 		student1.study(hours);
 		

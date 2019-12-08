@@ -24,7 +24,7 @@ public class Hom_116 {
 	
 	boolean odd = obj.evenOdd(300); 
 	
-	System.out.println("true");
+	System.out.println(odd);
 	
 	}
 	
